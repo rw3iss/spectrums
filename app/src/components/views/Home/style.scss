@@ -1,0 +1,33 @@
+.home {
+	background: none;
+	font-weight: bold;
+	font-size: 20pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	> div {
+		border: 1px solid #444;
+	}
+
+	.flex-golden-a {
+		flex: 1.618;
+
+		> div {
+			border: 1px solid #444;
+		}
+	}
+
+	.flex-golden-b {
+		flex: 1;
+
+		> div {
+			border: 1px solid #444;
+		}
+	}
+
+	.col {
+		padding: 15px;
+	}
+
+}

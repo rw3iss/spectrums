@@ -1,0 +1,12 @@
+@import '~components/style/vars';
+
+.history {
+	position: fixed;
+	z-index: 99;
+	bottom: 0;
+	right: 0;
+	height: 200px;
+	width: 200px;
+	background: blue;
+	border: 2px solid #aaa;
+}

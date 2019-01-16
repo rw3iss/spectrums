@@ -1,0 +1,25 @@
+@import '~style/vars';
+
+.app-container {
+	flex: 1;
+	display: flex;
+	height: 100%;
+	position: relative;
+
+	.app-view {
+		margin-top: $headerHeight;
+		height: calc(100% - $headerHeight);
+		width: 100%;
+		position: relative;
+		overflow-x: hidden;
+		overflow-y: auto;
+
+		.view {
+			flex: 1;
+			height: 100%;
+			width: 100%;
+		}
+
+	}
+
+}

@@ -1,0 +1,45 @@
+
+
+// Todo: move this
+
+.scroll-stick {
+	transition: all .25s linear;
+}
+
+.scroll-stick.stick {
+	position: fixed;
+
+	top: 100px;
+	left: 0px;
+	padding-left: 30px;
+	width: 100%;
+	z-index: 99;
+	font-size: 1.5em;
+	box-shadow: 2px 1px 4px rgba(200, 200, 200, 0.5);
+	background: rgba(255, 255, 255, 0.9);
+	transition: all .15s linear;
+}
+
+
+.scrollstick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 998;
+}
+
+.scrollstick:before,
+.scrollstick:after {	
+    content: '';
+    display: table;
+}
+
+/* react-select dropdowns */
+.react-select {
+	.select-menu-outer {
+		
+	}
+}
+
+
+@import '../../components/style/_controls';

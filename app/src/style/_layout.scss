@@ -1,0 +1,75 @@
+/* Flexbox definitions */
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+*[flex] {
+	display: flex;
+}
+*[flex~=row] {
+	flex-direction: row;
+}
+*[flex~=col] {
+	flex-direction: column;
+}
+*[flex~=col][flex~=center] {
+	align-items: center;
+}
+*[flex~=row][flex~=center] {
+	justify-content: center;
+}
+*[flex~=centerall] {
+	align-items: center;
+	justify-content: center;
+}
+
+*[flex~=even] > * {
+	flex: 1;
+}
+
+.fill-height {
+	min-height: 100%;
+}
+
+.fill-width {
+	min-width: 100%;
+}
+
+.view {
+	&.pad {
+		padding: $sectionPadding;
+	}
+}
+
+.form {
+	padding: $sectionPadding/2;
+
+	.group {
+		padding: $sectionPadding/2 0;
+
+		.item {
+			margin: 0 $sectionPadding/2;
+
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.row {
+		display: flex;
+
+		.item {
+		}
+	}
+
+	.item {
+		display: block;
+	}
+}

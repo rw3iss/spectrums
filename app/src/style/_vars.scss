@@ -1,0 +1,76 @@
+/* default colors */
+$blue: #4286f4;
+$green: green;
+
+/* THEME COLORS */
+
+$colorDarkGreen: #58634c;
+$colorBlue: #00B9E8;
+
+$colorDark1: #281e56;
+$colorDark2: #3d3874;
+$colorLight1: #949fb0;
+$colorLight2: #e0e8f6;
+
+$colorLightest: #FFF7F4;
+
+$colorFade1: #384743;
+$colorFade2: #27302D;
+
+$black: #222;
+$white: #fff;
+
+/* end theme colors */
+
+
+$headerHeight: 33px;
+$headerPadding: 7px;
+
+$pagePadding: 20px 20px;
+$itemPadding: 1vw;
+$sectionPadding: 15px;
+
+$col2: 50%;
+$col3: 33.2%;
+$col4: 24.9%;
+$col5: 19.9%;
+
+
+$btnColor: $colorBlue;
+$btnColorHover: lighten($btnColor, 4%);
+$btnShadow: 0px 0px 0px rgba(50,50,50,.5);
+$btnShadowHover: 1px 1px 6px rgba(40,40,40,.5);
+
+/* button controls */
+$buttonHeight: 34px;
+$buttonHeightTiny: 18px;
+$buttonHeightSmall: 24px;
+$buttonHeightLarge: 40px;
+$buttonHeightMobile: $buttonHeight;
+
+$buttonFontSize: 16px;
+$buttonFontSizeMobile: 16px;
+
+$btnDefaultColor: #333;
+/* end buttons */
+
+/* Inputs */
+$inputBackgroundColor: $colorLightest;
+
+
+/* breakpoints */
+$bp-mobile: 768px;
+$bp-medium: 1024px;
+/* end breakpoints */
+
+$navHoverColor: #77a5fa;
+$linkColor: #55f;
+$linkColorHover: lighten($linkColor, 10%);
+
+
+
+/* Animations */
+
+// Site-wide transition time for UI animations
+$transitionTime: .2s;
+

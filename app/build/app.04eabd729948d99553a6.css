@@ -1,0 +1,673 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,600,900);
+/* default colors */
+/* THEME COLORS */
+/* end theme colors */
+/* button controls */
+/* end buttons */
+/* Inputs */
+/* breakpoints */
+/* end breakpoints */
+/* Animations */
+.header {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 33px;
+  padding: 0 0 0 1vw;
+  background: blue;
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4477FF), color-stop(50%, #0000FF), to(#4466FF));
+  background-image: linear-gradient(to bottom, #4477FF 0%, #0000FF 50%, #4466FF 100%);
+  age: linear-gradient(to bottom, #7777FF 0%, #0000FF 50%, #7777FF 100%); }
+  .header .logo {
+    display: block;
+    text-decoration: none; }
+    .header .logo h1 {
+      padding: 0 1vw;
+      font-size: 12px;
+      font-weight: 100;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      color: #e0e8f6; }
+      .header .logo h1:hover {
+        color: #b1b9c6; }
+  .header nav {
+    margin: 0 0 0 auto;
+    height: 100%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .header nav a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      height: 100%;
+      min-width: 50px;
+      padding: 0 15px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0);
+      text-decoration: none;
+      color: #e0e8f6;
+      will-change: background-color; }
+      .header nav a .sub {
+        font-size: .8em;
+        margin: 0 5px;
+        font-weight: bold;
+        color: #b8cbeb; }
+      .header nav a:hover, .header nav a:active {
+        background: #00B9E8; }
+
+.dashboard {
+  min-height: 100%;
+  width: 100%; }
+
+/* default colors */
+/* THEME COLORS */
+/* end theme colors */
+/* button controls */
+/* end buttons */
+/* Inputs */
+/* breakpoints */
+/* end breakpoints */
+/* Animations */
+.project .header {
+  background: #4286f4;
+  padding: 7px; }
+
+.project .messages {
+  position: fixed;
+  top: 33px;
+  right: 0;
+  background: green;
+  min-width: 200px;
+  width: 15vw;
+  opacity: .8;
+  text-align: right; }
+  .project .messages h3 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    height: 33px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .project .messages li {
+    padding: 5px;
+    text-align: right;
+    font-size: .8em;
+    color: white; }
+    .project .messages li:hover {
+      background: rgba(255, 255, 255, 0.2); }
+
+.project #spectrums {
+  width: 100%; }
+  .project #spectrums .heading {
+    padding: 10px; }
+    .project #spectrums .heading .btn {
+      margin-right: 5px; }
+    .project #spectrums .heading h2 {
+      font-size: 1.2em;
+      padding: 7px; }
+    .project #spectrums .heading .sub {
+      font-size: .8em;
+      margin: 10px 0 0; }
+  .project #spectrums .spectrum-list {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    min-width: 300px; }
+    .project #spectrums .spectrum-list > li {
+      padding: 5px; }
+    .project #spectrums .spectrum-list .options {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .project #spectrums .spectrum-list .options:hover {
+        background: #384743; }
+      .project #spectrums .spectrum-list .options .field {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .project #spectrums .spectrum-list .options .field label {
+          font-size: 10px;
+          margin: 0 5px;
+          text-align: right;
+          min-width: 40px;
+          line-height: calc(1em + 2px); }
+        .project #spectrums .spectrum-list .options .field .input {
+          min-width: 60px;
+          max-width: 120px; }
+          .project #spectrums .spectrum-list .options .field .input input {
+            width: 100%;
+            font-size: 12px;
+            padding: 5px; }
+        .project #spectrums .spectrum-list .options .field.name input {
+          min-width: 100px; }
+        .project #spectrums .spectrum-list .options .field.actions {
+          padding-left: 10px; }
+          .project #spectrums .spectrum-list .options .field.actions .input {
+            padding: 2px; }
+    .project #spectrums .spectrum-list .details .notes {
+      width: 100%;
+      padding: 1vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .project #spectrums .spectrum-list .details .notes .note {
+        width: auto;
+        min-width: 12vw;
+        font-size: 12px;
+        font-weight: normal;
+        font-family: 'arial';
+        letter-spacing: 1px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .project #spectrums .spectrum-list .details .notes .note .index {
+          font-size: 8px;
+          font-weight: bold;
+          background: rgba(77, 255, 77, 0.2);
+          width: 25px;
+          text-align: center;
+          color: #ddd;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          padding: 2px;
+          height: 100%; }
+        .project #spectrums .spectrum-list .details .notes .note .frequency {
+          -webkit-box-flex: 2;
+              -ms-flex: 2;
+                  flex: 2;
+          background: rgba(0, 128, 0, 0.2);
+          min-width: 60px;
+          width: auto;
+          padding: 3px;
+          font-size: 1vw;
+          letter-spacing: 2px; }
+        .project #spectrums .spectrum-list .details .notes .note:hover {
+          cursor: pointer; }
+          .project #spectrums .spectrum-list .details .notes .note:hover .index {
+            background: rgba(26, 255, 26, 0.3); }
+          .project #spectrums .spectrum-list .details .notes .note:hover .frequency {
+            background: rgba(128, 255, 128, 0.3); }
+
+
+/* default colors */
+/* THEME COLORS */
+/* end theme colors */
+/* button controls */
+/* end buttons */
+/* Inputs */
+/* breakpoints */
+/* end breakpoints */
+/* Animations */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/*
+// ----------------------------------------------
+// Usage example:
+// For IE set $mq-support to false.
+// Set the fixed value.
+// Then use mixins to test whether styles should be applied.
+// ----------------------------------------------
+
+$mq-support: false;
+$mq-fixed-value: 1024;
+
+// Renders at fixed value
+@include bp (min-width, 300px) { 
+    div { color:#000; }
+}
+
+// Doesn't render without MQ support
+@include bp (min-width, 1200px) { 
+    div { color:#FFF; }
+}
+
+// Doesn't render without MQ support
+@include bp (max-width, 300px) { 
+    div { color:#444; }
+}
+
+// Renders at fixed value
+@include bp (max-width, 1200px) { 
+    div { color:#888; }
+}
+
+// ----------------------------------------------
+*/
+ {
+  /* Firefox < 16 */
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; } }
+  .fade-in {
+    opacity: 0;
+    -webkit-animation: fadeIn .5s ease-in 1 forwards;
+            animation: fadeIn .5s ease-in 1 forwards; }
+  .is-paused {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'MankSans';
+  font-weight: 100 !important;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+  background: #e0e8f6;
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup */
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#384743), to(#27302D));
+  background-image: linear-gradient(to bottom right, #384743 0%, #27302D 100%); }
+
+html {
+  overflow: hidden;
+  height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #55f; }
+  a:hover {
+    color: #8888ff; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+  font-style: italic; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff; }
+
+/* default colors */
+/* THEME COLORS */
+/* end theme colors */
+/* button controls */
+/* end buttons */
+/* Inputs */
+/* breakpoints */
+/* end breakpoints */
+/* Animations */
+input, textarea, select {
+  background: #FFF7F4;
+  color: #FFF7F4;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 7px;
+  background: none;
+  border: rgba(255, 173, 142, 0.2) 1px solid;
+  outline: none; }
+  input:focus, input:hover, textarea:focus, textarea:hover, select:focus, select:hover {
+    background: rgba(88, 99, 76, 0.2);
+    border: rgba(0, 0, 0, 0) 1 px solid; }
+
+.btn, .btn-default {
+  font-size: 16px;
+  font-weight: 500;
+  min-width: 100px;
+  height: 34px;
+  min-height: 34px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  background-color: #00B9E8;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.5);
+          box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.5);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  padding: 3px 15px;
+  text-decoration: none;
+  border: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all .2s ease; }
+
+.btn-small {
+  height: 24px;
+  min-height: 24px;
+  min-width: 50px;
+  font-size: 14px;
+  padding: 3px 9px; }
+
+.btn:hover, .btn:active, .btn:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #00c9fc;
+  -webkit-box-shadow: 1px 1px 6px rgba(40, 40, 40, 0.5);
+          box-shadow: 1px 1px 6px rgba(40, 40, 40, 0.5); }
+
+.btn:active {
+  position: relative;
+  top: 1px; }
+
+.btn-tiny {
+  font-size: 10px;
+  line-height: 1.1em;
+  padding: 1px 5px;
+  min-height: 18px;
+  height: 18px;
+  min-width: 40px; }
+
+.btn-large {
+  height: 40px;
+  min-height: 40px;
+  font-size: 1.1em;
+  padding-left: 1.2em;
+  padding-right: 1.2em; }
+
+.btn-blue {
+  background-color: #4286f4; }
+  .btn-blue:hover {
+    background-color: #5592f5;
+    -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.5);
+            box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.5); }
+
+.btn-outline {
+  color: white;
+  background-color: #4286f4;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  overflow: visible;
+  margin-bottom: 10px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
+  .btn-outline:hover {
+    color: white;
+    border: 3px solid #fff;
+    background-color: #5a95f5;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
+
+.btn.square,
+.btn-square {
+  border-radius: 0; }
+
+@font-face {
+  font-family: 'Unified';
+  src: url("/assets/fonts/Unified-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url("/assets/fonts/CaviarDreams.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MankSans-Medium';
+  src: url("/assets/fonts/MankSans-Medium.ttf") format("truetype"); }
+
+/* Flexbox definitions */
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+*[flex] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+*[flex~=row] {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+*[flex~=col] {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+*[flex~=col][flex~=center] {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+*[flex~=row][flex~=center] {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+*[flex~=centerall] {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+*[flex~=even] > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.fill-height {
+  min-height: 100%; }
+
+.fill-width {
+  min-width: 100%; }
+
+.view.pad {
+  padding: 15px; }
+
+.form {
+  padding: 7.5px; }
+  .form .group {
+    padding: 7.5px 0; }
+    .form .group .item {
+      margin: 0 7.5px; }
+      .form .group .item:first-child {
+        margin-left: 0; }
+      .form .group .item:last-child {
+        margin-right: 0; }
+  .form .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .form .item {
+    display: block; }
+
+#root {
+  height: 100%;
+  color: #ddd; }
+  #root > div {
+    height: 100%; }
+
+/* default colors */
+/* THEME COLORS */
+/* end theme colors */
+/* button controls */
+/* end buttons */
+/* Inputs */
+/* breakpoints */
+/* end breakpoints */
+/* Animations */
+.app-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: relative; }
+  .app-container .app-view {
+    margin-top: 33px;
+    height: calc(100% - $headerHeight);
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto; }
+    .app-container .app-view .view {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      height: 100%;
+      width: 100%; }
+

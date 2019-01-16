@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./build/",       // path to output directory
+        "sourceMap": true,          // allow sourcemap support
+        "strictNullChecks": true,   // enable strict null checks as a best practice
+        "module": "es2015",            // specifiy module code generation
+        "moduleResolution": "classic",
+        "jsx": "react",             // use typescript to transpile jsx to js
+        "target": "es2016",         // specify ECMAScript target version
+        "allowJs": true,             // allow a partial TypeScript and JavaScript codebase  
+        "noImplicitThis": true,
+        "noImplicitReturns": false,
+
+        // Not sure if either of these are necessary:   
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "paths": {
+          "client/*":     ["./*"],
+          "components/*": ["components/*"],
+          "config/*":     ["config/*"],
+          "data/*":       ["data/*"],
+          "style/*":      ["style/src/*"],
+          "utils/*":      ["utils/*"]
+        }
+    },
+
+    "include": [
+        "src/*"
+    ],
+    "exclude": [
+        "../node_modules/**/*",
+        "./build/*"
+    ],
+    "files": [
+        "./globals.d.ts"
+    ],
+    "types": ["webpack-env"]
+
+}

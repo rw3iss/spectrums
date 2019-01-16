@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	//transition: all .15s ease-in-out;
+}
+
+body {
+	font-family: 'MankSans';
+	//letter-spacing: 2px;
+	font-weight: 100 !important;
+	padding: 0;
+	margin: 0;
+    height: 100%;
+    overflow: auto;
+    background: $colorLight2;
+
+	// /* IE10+ */ 
+	// background-image: -ms-linear-gradient(left, #BECEE6 0%, #E0E8F6 15%, #E0E8F6 85%, #BECEE6 100%);
+
+	// /* Mozilla Firefox */ 
+	// background-image: -moz-linear-gradient(left, #BECEE6 0%, #E0E8F6 15%, #E0E8F6 85%, #BECEE6 100%);
+
+	// /* Opera */ 
+	// background-image: -o-linear-gradient(left, #BECEE6 0%, #E0E8F6 15%, #E0E8F6 85%, #BECEE6 100%);
+
+	// /* Webkit (Safari/Chrome 10) */ 
+	// background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #BECEE6), color-stop(15, #E0E8F6), color-stop(85, #E0E8F6), color-stop(100, #BECEE6));
+
+	// /* Webkit (Chrome 11+) */ 
+	// background-image: -webkit-linear-gradient(left, #BECEE6 0%, #E0E8F6 15%, #E0E8F6 85%, #BECEE6 100%);
+
+	// /* W3C Markup */ 
+	// background-image: linear-gradient(to right, #BECEE6 0%, #E0E8F6 15%, #E0E8F6 85%, #BECEE6 100%);
+
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(top left, #384743 0%, #27302D 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top left, #384743 0%, #27302D 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top left, #384743 0%, #27302D 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #384743), color-stop(100, #27302D));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top left, #384743 0%, #27302D 100%);
+
+	/* W3C Markup */ 
+	background-image: linear-gradient(to bottom right, #384743 0%, #27302D 100%);
+
+	//color: $colorLightest;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: $linkColor;
+
+	&:hover {
+		color: $linkColorHover;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+$placeHolderColorLight: #333;
+$placeHolderColorDark: #ddd;
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+    font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #fff;
+}
